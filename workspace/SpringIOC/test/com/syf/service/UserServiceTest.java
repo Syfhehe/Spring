@@ -11,6 +11,7 @@ public class UserServiceTest {
 
 	@Test
 	public void testAdd() throws Exception{
+		@SuppressWarnings("resource")
 		ApplicationContext applicationContext = new ClassPathXmlApplicationContext("beans.xml");
 		UserService svc = (UserService) applicationContext.getBean("userService");
 		User u = new User();
