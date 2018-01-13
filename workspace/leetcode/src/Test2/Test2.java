@@ -1,6 +1,9 @@
 package Test2;
 
+import java.util.HashMap;
+
 public class Test2 {
+	HashMap m = new HashMap();
 	public ListNode addTwoNumbers(ListNode l1, ListNode l2) {
 
 		ListNode dummyHead = new ListNode(0);
